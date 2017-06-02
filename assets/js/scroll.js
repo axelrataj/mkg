@@ -22,8 +22,6 @@
 
             if ( (windowScrollY + windowHeight) * depth > elOffsetTop ) {
 
-                console.log( elOffsetTop - windowHeight );
-
                 if ( !$(elems[i]).hasClass('isView') )
                     $(elems[i]).addClass('isView');
 

@@ -401,8 +401,8 @@ body {
       font-weight: 700; }
 .contact-section .row .col-sm-6:last-child {
   background-image: url("assets/gfx/contact-section-bg.png");
-  background-position: center right;
   background-repeat: no-repeat;
+  background-position: center right;
   position: absolute;
   right: 0;
   height: 100%; }
