@@ -257,7 +257,7 @@ body {
     right: 0;
     margin: auto;
     background: {
-      image: url("/wp-content/themes/mkg/assets/gfx/top-banner-section-bottom-bg.png");
+      image: url("assets/gfx/top-banner-section-bottom-bg.png");
       repeat: no-repeat;
       position: center top;
       size: cover;
@@ -562,7 +562,7 @@ body {
     .col-sm-6 {
       &:last-child {
         background: {
-          image: url("/wp-content/themes/mkg/assets/gfx/contact-section-bg.png");
+          image: url("assets/gfx/contact-section-bg.png");
           position: center right;
           repeat: no-repeat;
         };
