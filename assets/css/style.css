@@ -198,7 +198,6 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    background-image: url("assets/gfx/top-banner-section-bottom-bg.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; }
@@ -400,7 +399,6 @@ body {
       color: #2056cd;
       font-weight: 700; }
 .contact-section .row .col-sm-6:last-child {
-  background-image: url("assets/gfx/contact-section-bg.png");
   background-repeat: no-repeat;
   background-position: center right;
   position: absolute;
