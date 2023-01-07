@@ -4,9 +4,9 @@ $main-header-height: 80px;
 
 body {
   font: {
-    family: 'Fira Sans', sans-serif;
+    family: "Fira Sans", sans-serif;
     size: 15px;
-  };
+  }
 }
 
 .container {
@@ -50,7 +50,8 @@ body {
   .bg {
     background: #fff;
   }
-  .container, .bg {
+  .container,
+  .bg {
     height: 100%;
   }
 }
@@ -58,6 +59,7 @@ body {
 .logo-container {
   width: $logo-container-width;
   float: left;
+  font-size: 20px;
   img {
     margin: 23px auto;
     max-width: 175px;
@@ -84,7 +86,7 @@ body {
         line-height: $main-header-height;
         font: {
           weight: 300;
-        };
+        }
       }
     }
   }
@@ -156,13 +158,13 @@ body {
         font: {
           size: 20px;
           weight: 700;
-        };
+        }
         span {
           display: inline-block;
           margin: 0 0 0 15px;
           font: {
             size: 17px;
-          };
+          }
         }
       }
     }
@@ -176,7 +178,7 @@ body {
   background: {
     repeat: no-repeat;
     position: center top;
-  };
+  }
   .container {
     height: 100%;
   }
@@ -260,7 +262,7 @@ body {
       repeat: no-repeat;
       position: center top;
       size: cover;
-    };
+    }
   }
 }
 
@@ -271,8 +273,8 @@ body {
   .gradient {
     background: #dbdde2;
     background: -moz-linear-gradient(top, #dbdde2 0%, #ffffff 100%);
-    background: -webkit-linear-gradient(top, #dbdde2 0%,#ffffff 100%);
-    background: linear-gradient(to bottom, #dbdde2 0%,#ffffff 100%);
+    background: -webkit-linear-gradient(top, #dbdde2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #dbdde2 0%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdde2', endColorstr='#ffffff',GradientType=0 );
     position: absolute;
     top: 0;
@@ -435,7 +437,8 @@ body {
       padding: 0 15px;
       margin: 0 0 15px 0;
       position: relative;
-      &:nth-of-type(1), &:nth-of-type(2) {
+      &:nth-of-type(1),
+      &:nth-of-type(2) {
         width: 50%;
         float: left;
       }
@@ -537,7 +540,7 @@ body {
       margin: auto;
       border-radius: 50%;
       background: #fff;
-      box-shadow: 0 0 20px 0 rgba(0,0,0, .1);
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
       color: #39434e;
       position: relative;
       font: {
@@ -563,7 +566,7 @@ body {
         background: {
           repeat: no-repeat;
           position: center right;
-        };
+        }
         position: absolute;
         right: 0;
         height: 100%;
@@ -576,13 +579,13 @@ body {
   border-top: 4px solid #2056cd;
   background: #39434e;
   .copyright {
-      margin: 0;
-      text-align: right;
-      line-height: $main-header-height;
-      color: #fff;
-      font: {
-        size: 11px;
-      };
+    margin: 0;
+    text-align: right;
+    line-height: $main-header-height;
+    color: #fff;
+    font: {
+      size: 11px;
+    }
   }
 }
 
@@ -606,14 +609,13 @@ body {
         font: {
           size: 14px;
           weight: 300;
-        };
+        }
       }
     }
   }
 }
 
-@media(max-width: 1199px) {
-
+@media (max-width: 1199px) {
   .logo-container {
     width: 200px;
   }
@@ -650,17 +652,16 @@ body {
     }
     .row {
       .col-lg-3 {
-        &:first-child, &:nth-child(2) {
+        &:first-child,
+        &:nth-child(2) {
           margin: 0 0 50px 0;
         }
       }
     }
   }
-
 }
 
-@media(max-width: 991px) {
-
+@media (max-width: 991px) {
   .main-nav {
     width: calc(100% - 200px);
     ul {
@@ -672,20 +673,18 @@ body {
     }
   }
 
-    .footer-nav {
-      ul {
-        li {
-          a {
-            padding: 0 10px;
-          }
+  .footer-nav {
+    ul {
+      li {
+        a {
+          padding: 0 10px;
         }
       }
     }
-
+  }
 }
 
-@media(max-width: 767px) {
-
+@media (max-width: 767px) {
   .main-header {
     background: #fff;
     height: 60px;
@@ -698,7 +697,7 @@ body {
     width: 100%;
     position: fixed;
     height: calc(100% - 60px);
-    background: rgba(255,255,255, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     visibility: hidden;
     transform: translateY(-15px);
     opacity: 0;
@@ -741,7 +740,7 @@ body {
 
   .mobile-nav-open {
     .main-header {
-      background: rgba(255,255,255, 0.95);
+      background: rgba(255, 255, 255, 0.95);
     }
     .main-nav {
       visibility: visible;
@@ -799,7 +798,7 @@ body {
     }
     .row {
       .col-lg-3 {
-          margin: 0 0 50px 0 !important;
+        margin: 0 0 50px 0 !important;
         &:last-child {
           margin: 0 !important;
         }
@@ -842,7 +841,8 @@ body {
       margin: auto;
       p {
         padding: 0;
-        &:nth-of-type(1), &:nth-of-type(2) {
+        &:nth-of-type(1),
+        &:nth-of-type(2) {
           width: 100%;
           float: none;
         }
@@ -890,5 +890,4 @@ body {
       line-height: 1.2em;
     }
   }
-
 }
